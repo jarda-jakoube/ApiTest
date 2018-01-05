@@ -3,5 +3,54 @@ HOST: http://polls.apiblueprint.org/
 
 # MobApi documentation
 
-:[include](/files/first.md)
+# newAPi
+[Neco]()
+Polls is a simple API allowing consumers to view polls and vote in them.
+
+## Questions Collection [/questions]
+
+### List All Questions [GET]
+
++ Response 200 (application/json)
+    + Attributes (Family) 
+        
+# Data Structures
+
+## Family
+- `father`: (Person)
+    - first_name: Otec
+- `mother`: (Person)
+    - last_name: krava
+- `mother2`: (Person)
+- `dogs`: (array[Dog, Dog])
+
+## Dog
+- `psi_jmeno`
+- `psi_name`
+
+## Person
+- `id`: `-1` (number) - unique number
+- `first_name`: jmeno (string)
+- `last_name`
+
+## Second api
+
+this is file for second API call
+
+## Questions Collection [/second]
+
+### List second file [GET]
+
++ Response 200 (application/json)
+    + Attributes (Family)
+
+# Data Structures
+
+## Test
+- `firstEl`: (Element)
+- `secondEl`: (Element)
+
+## Element
+- `id`: `-1` (number) - unique number
+- `name`: elemest (string)
 
