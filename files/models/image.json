@@ -1,0 +1,7 @@
+{
+  "small": ":[](URL || 'vychozi')",
+  "medium": ":[](URL || 'vychozi')",
+  "large": ":[](URL || 'vychozi')",
+  "neco":
+    :[](IMAGE2)
+}
